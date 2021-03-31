@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GameTrade</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="cancel">CANCEL</string>
+    <string name="upload">UPLOAD</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="profile">Profile</string>
+    <string name="feedback">Feedback</string>
+    <string name="log_out">Log Out</string>
+</resources>

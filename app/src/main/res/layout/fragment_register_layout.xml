@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.RegisterLayout"
+    android:focusableInTouchMode="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:labelText="Username"
+            app:panelBackgroundColor="#1ac2c2c2"
+            app:primaryColor="#012643"
+            app:iconSignifier="@drawable/logindrawable"
+            app:hasFocus="false"
+            app:useDenseSpacing="true"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/Username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:id="@+id/register_passholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:labelText="Password"
+            app:panelBackgroundColor="#1ac2c2c2"
+            app:primaryColor="#012643"
+            app:iconSignifier="@drawable/loginpassdrawable"
+            app:hasFocus="false"
+            app:endIcon="@drawable/visible"
+            app:minCharacters="8"
+            app:manualValidateError="true"
+            app:useDenseSpacing="true"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:inputType="textPassword"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:id="@+id/register_repassholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:labelText="Re-type Password"
+            app:panelBackgroundColor="#1ac2c2c2"
+            app:primaryColor="#012643"
+            app:iconSignifier="@drawable/loginpassdrawable"
+            app:hasFocus="false"
+            app:endIcon="@drawable/visible"
+            app:minCharacters="8"
+            app:manualValidateError="true"
+            app:useDenseSpacing="true"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/RetypePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:inputType="textPassword"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:labelText="Email Address"
+            app:panelBackgroundColor="#1ac2c2c2"
+            app:primaryColor="#012643"
+            app:iconSignifier="@drawable/email_icon"
+            app:hasFocus="false"
+            app:useDenseSpacing="true"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/EmailAddress"
+                android:inputType="textEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:id="@+id/phoneholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:labelText="Phone number"
+            app:panelBackgroundColor="#1ac2c2c2"
+            app:primaryColor="#012643"
+            app:iconSignifier="@drawable/phone_icon"
+            app:hasFocus="false"
+            app:maxCharacters="8"
+            app:minCharacters="8"
+            app:manualValidateError="true"
+            app:useDenseSpacing="true"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/PhoneNumber"
+                android:inputType="phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                app:prefix="+961 "
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:labelText="Location"
+            app:panelBackgroundColor="#1ac2c2c2"
+            app:primaryColor="#012643"
+            app:iconSignifier="@drawable/location_icon"
+            app:hasFocus="false"
+            app:useDenseSpacing="true"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/Location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/sign_up"
+            android:backgroundTint="#cc1111"
+            android:textColor="#fff"
+            android:elevation="1dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

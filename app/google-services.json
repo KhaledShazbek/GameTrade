@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852525846837",
+    "firebase_url": "https://gametrade-efdf4.firebaseio.com",
+    "project_id": "gametrade-efdf4",
+    "storage_bucket": "gametrade-efdf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852525846837:android:c0dd0f44d4d9d2b0eabc7c",
+        "android_client_info": {
+          "package_name": "com.shazbek11.gametrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852525846837-q76006b52qihg1lj9j1nrv23ab73g6uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shazbek11.gametrade",
+            "certificate_hash": "d409cf2054a9fed39eab22f0ab9cb05759a4feb4"
+          }
+        },
+        {
+          "client_id": "852525846837-rrbbbl4g5suo4bpi9hidrbvs95163jta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHP4Ah_Avjr3JSCOBzUyQ_bbggEU_8n0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852525846837-rrbbbl4g5suo4bpi9hidrbvs95163jta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

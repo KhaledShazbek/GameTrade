@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:titleTextColor">#000000</item>
+        <item name="textColorAlertDialogListItem">#000000</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#0096FF</item>
+        <item name="android:textColorPrimary">#454545</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="LginActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#081A25</item>
+        <item name="colorButtonNormal">#f00</item>
+        <item name="colorControlHighlight">#fff</item>
+        <item name="colorAccent">#012643</item>
+        <item name="colorPrimary">#012643</item>
+    </style>
+
+    <style name="SearchActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/darkblue</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="profileActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#081A25</item>
+        <item name="colorPrimary">#012643</item>
+        <item name="colorAccent">#000</item>
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

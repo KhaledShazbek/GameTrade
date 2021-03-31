@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shazbek11.gametrade">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/application_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/application_logo"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        <activity android:name=".Activities.ForgotPassword"
+            android:theme="@style/profileActivity"></activity>
+        <activity
+            android:name=".Activities.Feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.login"
+            android:screenOrientation="portrait"
+            android:theme="@style/LginActivityTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Activities.Profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/profileActivity" />
+        <activity
+            android:name=".Activities.EditProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/profileActivity" />
+        <activity
+            android:name=".Activities.Search_Results"
+            android:screenOrientation="portrait"
+            android:theme="@style/SearchActivity" />
+        <activity
+            android:name=".Activities.EditPostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.profilevisit"
+            android:screenOrientation="portrait"
+            android:theme="@style/profileActivity" />
+        <activity
+            android:name=".Activities.ChangePassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.VerifyPhoneNumber"
+            android:screenOrientation="portrait"
+            android:theme="@style/profileActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.VerifyPhoneNumber">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/ABL"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/darkblue">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Verification"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textAllCaps="true"
+                android:textColor="@color/White"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account created"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/White"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textview2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview3"
+                android:text="Please type the code we sent via SMS to use the app"
+                android:textColor="@color/White"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"/>
+            <ImageButton
+                android:id="@+id/goback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:background="@color/darkblue"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+        android:id="@+id/OTPholder"
+        android:layout_below="@id/ABL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        app:labelText="Verification Code"
+        app:panelBackgroundColor="@color/White"
+        app:primaryColor="@color/darkblue"
+        android:elevation="1dp">
+        <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+            android:id="@+id/OTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:inputType="number"/>
+    </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+    <Button
+        android:id="@+id/verifyOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OTPholder"
+        android:layout_centerHorizontal="true"
+        android:text="@string/verify_code"
+        android:backgroundTint="@color/indigo"
+        android:textColor="@color/White"
+        android:elevation="2dp"/>
+    <Button
+        android:id="@+id/resendOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verifyOTP"
+        android:layout_centerHorizontal="true"
+        android:text="Resend Code"
+        android:textColor="@color/darkblue"
+        android:backgroundTint="@color/White"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>
