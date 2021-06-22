@@ -8,3 +8,10 @@ The backend is written with PHP & MySQL. The fetching code contains 2 methods fo
 <br><br>
 I discontinued my work on this app, although a lot of improvements can be made, so feel free to change anything and pull request :)
 <br><br>
+<img src="https://github.com/KhaledShazbek/GameTrade/blob/3172d57aa5d31ed3c2743c5e4a150e376d76a09b/login.png" alt="login page" width=252 height=518>
+<br>
+<img src="https://github.com/KhaledShazbek/GameTrade/blob/3172d57aa5d31ed3c2743c5e4a150e376d76a09b/home.png" alt="homepage" width=252 height=518>
+<br>
+<img src="https://github.com/KhaledShazbek/GameTrade/blob/3172d57aa5d31ed3c2743c5e4a150e376d76a09b/profile.png" alt="profile page" width=252 height=518>
+<br>
+<img src="https://github.com/KhaledShazbek/GameTrade/blob/3172d57aa5d31ed3c2743c5e4a150e376d76a09b/collapsingappbar.png" alt="collapsing app bar effect" width=252 height=518>
